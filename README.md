@@ -13,4 +13,4 @@ The PDF (nlp-data-science-challenge.pdf) contains the instructions for the chall
 The  IPython Notebook (nwo_challenge.ipynb) provides a function by function breakdown for the code. 
 	
 ## Script
-The  python script file (nwo_challenge.py) contians the code which takes a query term as a system argument, and returns a ranked and ordered set of the top 5 closely associated trends.
+The  python script file (nwo_challenge.py) contians the code which takes a query term as a system argument, and prints to console a ranked and ordered set of the top 5 closely associated trends.
