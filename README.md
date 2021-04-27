@@ -3,13 +3,13 @@ NWO Challenge: Semantic Search
 
 ## Repository contents
 * Instructions: [nlp-data-science-challenge.pdf](#instructions)
-* IPython Notebook: [nwo_challenge.ipynb](#jupyter-notebook)
+* IPython notebook: [nwo_challenge.ipynb](#jupyter-notebook)
 * Script: [nwo_challenge.py](#script)
 
 ## Instructions
 The PDF (nlp-data-science-challenge.pdf) contains the instructions for the challenge.
 	
-## IPython Notebook
+## IPython notebook
 The  IPython Notebook (nwo_challenge.ipynb) provides a function by function breakdown for the code. 
 	
 ## Script
