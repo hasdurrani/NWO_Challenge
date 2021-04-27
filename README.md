@@ -1,2 +1,2 @@
 # NWO_Challenge
-NWO Challenge: Semantic Searcj
+NWO Challenge: Semantic Search
