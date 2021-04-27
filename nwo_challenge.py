@@ -8,6 +8,7 @@ import pandas as pd
 from google.cloud import bigquery
 from sklearn.feature_extraction.text import CountVectorizer
 import networkx as nx
+from ordered_set import OrderedSet
 
 def make_query_reddit(query_term, limit):
     """Function to query the reddit dataset for a particular 
@@ -127,7 +128,7 @@ def find_neighbors(graph, query_term, topn):
 
     neighbors.sort(key=lambda x:(-x[1], x[2]))
 
-    return [neighbor[0] for neighbor in neighbors[:topn]]
+    return OrderedSet([neighbor[0] for neighbor in neighbors[:topn]])
 
 # Gather our code in a main() function
 def main():
@@ -135,8 +136,8 @@ def main():
     QUERY_TERM = sys.argv[1]
   
     # Loading the data
-    df_reddit = make_query_reddit(QUERY_TERM, 200)
-    df_twitter = make_query_twitter(QUERY_TERM, 200)
+    df_reddit = make_query_reddit(QUERY_TERM, 500)
+    df_twitter = make_query_twitter(QUERY_TERM, 500)
     print('data loaded')
 
     # Cleaning the individual datasets
