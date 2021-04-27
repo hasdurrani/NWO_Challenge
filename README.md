@@ -14,3 +14,6 @@ The  IPython Notebook (nwo_challenge.ipynb) provides a function by function brea
 	
 ## Script
 The  python script file (nwo_challenge.py) contians the code which takes a query term as a system argument, and prints to console a ranked and ordered set of the top 5 closely associated trends.
+
+## What's missing
+I have purposely left out the JSON key needed to make the connection to the database. The JSON key (nwo-sample-5f8915fdc5ec.json)needs to be present in the same folder as the script in order to make queries against the database.
