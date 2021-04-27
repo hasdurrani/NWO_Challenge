@@ -1,25 +1,16 @@
 # NWO_Challenge
 NWO Challenge: Semantic Search
 
-
-## Repository files
+## Repository contents
 * Instructions: [nlp-data-science-challenge.pdf](#instructions)
-* Jupyter Notebook: [nwo_challenge.ipynb](#jupyter-notebook)
+* IPython Notebook: [nwo_challenge.ipynb](#jupyter-notebook)
 * Script: [nwo_challenge.py](#script)
 
 ## Instructions
-This project is simple Lorem ipsum dolor generator.
+The PDF (nlp-data-science-challenge.pdf) contains the instructions for the challenge.
 	
-## Jupyter Notebook
-Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+## IPython Notebook
+The  IPython Notebook (nwo_challenge.ipynb) provides a function by function breakdown for the code. 
 	
 ## Script
-To run this project, install it locally using npm:
-
-```
-$ cd ../lorem
-$ npm install
-$ npm start
+The  python script file (nwo_challenge.py) contians the code which takes a query term as a system argument, and returns a ranked and ordered set of the top 5 closely associated trends.
